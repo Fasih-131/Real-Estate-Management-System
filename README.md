@@ -45,3 +45,9 @@ Next, we determined the attributes for each entity and identified the foreign ke
 
 ### Operational Data Model
 ![Operational Data Model](https://github.com/Fasih-131/Real-Estate-Management-System/blob/main/operational_data_model.PNG)
+
+## DBMS Selection
+The database management system that we selected for our project is MYSQL database, as it has many useful security and data integrity features, more of its benefits are listed below:
+  1. 
+
+## Prototyping
