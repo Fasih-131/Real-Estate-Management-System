@@ -37,4 +37,5 @@ Next, we determined the attributes for each entity and identified the foreign ke
   - The website should swiftly login and sign-up.
 
 ## System Design
-![Real Estate Management System Diagram](https://github.com/Fasih-131/Real-Estate-Management-System/blob/main/Real%20Estate%20Management%20System.png)
+### Relational Data Model
+![Real Estate Management System Diagram](https://github.com/Fasih-131/Real-Estate-Management-System/blob/main/Real%20Estate%20Management%20System%20(1).png)
