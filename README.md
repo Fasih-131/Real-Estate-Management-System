@@ -41,7 +41,7 @@ Next, we determined the attributes for each entity and identified the foreign ke
 ![Relational Data Model](https://github.com/Fasih-131/Real-Estate-Management-System/blob/main/Real%20Estate%20Management%20System%20(1).png)
 
 ### Logical Data Model
-![Logical Data Model](https://github.com/Fasih-131/Real-Estate-Management-System/blob/main/logical_data_model.png)
+![Logical Data Model](https://github.com/Fasih-131/Real-Estate-Management-System/blob/main/logical_data_model.PNG)
 
 ### Operational Data Model
-![Operational Data Model](https://github.com/Fasih-131/Real-Estate-Management-System/blob/main/operational_data_model.png)
+![Operational Data Model](https://github.com/Fasih-131/Real-Estate-Management-System/blob/main/operational_data_model.PNG)
