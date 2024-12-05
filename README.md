@@ -48,6 +48,18 @@ Next, we determined the attributes for each entity and identified the foreign ke
 
 ## DBMS Selection
 The database management system that we selected for our project is MYSQL database, as it has many useful security and data integrity features, more of its benefits are listed below:
-  1. 
+  1. Optimized for read-heavy workloads.
+  2. Efficient query optimization
+  3. Active developer community
+  4. Built-in data encryption
+  5. Supports large datasets
+  6. User-friendly tools
 
 ## Prototyping
+### Objective
+The prototype aims to provide a visual representation of the Real Estate Management System to test feasibility, gather feedback, and refine the final product/software.
+
+### Scope
+The features and/or modules included in the prototype are:
+- **Included:**
+  1.
