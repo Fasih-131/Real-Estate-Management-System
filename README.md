@@ -1,6 +1,9 @@
 # Real-Estate-Management-System
 Introduction To Database Systems Project
 
+## Project Video
+![Project Recording](https://github.com/Fasih-131/Real-Estate-Management-System/blob/main/project_sr%20(1).mp4)
+
 ## Database Planning
 The planning of our Real Estate Management System database was carried out in several steps. The first step was identifying the main entities required for the project, which include: 
 1.	Properties
@@ -62,4 +65,34 @@ The prototype aims to provide a visual representation of the Real Estate Managem
 ### Scope
 The features and/or modules included in the prototype are:
 - **Included:**
-  1.
+  1. Property Management (Add, Edit, Delete, List properties).
+  2. Tenant Management (Add, Edit, Delete, List tenants).
+  3. Lease Management (Basic lease form and listing).
+  4. Payment Management (Basic payment form).
+  5. Maintenance Request Management (Basic maintenance request form and listing).
+
+- **Not Included**
+  1. Advanced payment processing.
+  2. Full maintenance request system.
+  3. Reporting and analytics features.
+ 
+### User Interface (UI)
+1. Homepage (Dashboard/Index)
+2. Navigation Bar for modules
+3. Forms
+4. Tables
+5. Listings
+6. Admin Panel
+
+### Core Functionalities
+The basic functionalitites listed implemented in the prototype are:
+1. Add/Edit/Delete operations for Properties, Tenants, Leases, Payments, Maintenance Requests, Users (through admin panel).
+2. Simple database connection for CRUD operations.
+3. Login system for authentication.
+4. Static design for styling (using CSS/Bootstrap).
+
+### Tools and Technologies Used
+1. Frontend: HTML, CSS, BOOTSTRAP.
+2. Backend: PHP.
+3. Database: MySQL/MariaDB.
+
