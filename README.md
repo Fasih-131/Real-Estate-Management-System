@@ -2,7 +2,10 @@
 Introduction To Database Systems Project
 
 ## Project Video  
-[Watch Project Recording](https://github.com/Fasih-131/Real-Estate-Management-System/raw/main/project_sr.mp4)
+<video width="640" height="360" controls>
+  <source src="https://github.com/Fasih-131/Real-Estate-Management-System/raw/main/project_sr.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Database Planning
 The planning of our Real Estate Management System database was carried out in several steps. The first step was identifying the main entities required for the project, which include: 
