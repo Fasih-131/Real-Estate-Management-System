@@ -98,3 +98,56 @@ The basic functionalitites listed implemented in the prototype are:
 2. Backend: PHP.
 3. Database: MySQL/MariaDB.
 
+## Database Construction
+After the physical design phase, the database was constructed using the MySQL Database Management System. This phase involved the following steps:
+  - Schema Creation: The database schema was created based on the logical and operational data models. SQL queries were used to define the tables, attributes, constraints, and relationships.
+  - Table Creation: Each entity (e.g., properties, tenants, leases, payments, maintenance_requests, users) was translated into a table with appropriate columns, data types, and constraints.
+  - Foreign Key Relationships: Foreign keys were implemented to establish relationships between tables. For example:
+    leases references properties and tenants.
+    payments references leases.
+maintenance_requests references properties and tenants.
+users references roles such as admin, agent, or tenant.
+Indexes: Indexes were added to frequently queried fields (e.g., property_id, tenant_id) to improve query performance.
+
+## Data Population
+This phase involved populating the database with test data to ensure its functionality and usability. Test data was inserted into the following tables:
+  - Users: Admins, agents, tenants, and maintenance personnel.
+  - Properties: Sample properties with details such as location, size, and price.
+  - Leases: Lease agreements linking tenants to specific properties.
+  - Payments: Payment records linked to leases.
+  - Maintenance Requests: Logged maintenance requests associated with specific properties.
+SQL scripts were used to automate the insertion of test data.
+
+## Testing and Validation
+Testing was conducted to verify the database’s performance, accuracy, and functionality. The key testing methods included:
+
+Unit Testing: Each table and its CRUD operations were tested independently using SQL queries.
+Integration Testing: Relationships between tables were tested by executing JOIN queries to ensure the integrity of foreign key constraints.
+Functional Testing: Database functionality was tested by running the website’s modules and verifying data operations.
+Stress Testing: The system was tested with multiple simultaneous queries to ensure it could handle concurrent users without performance degradation.
+
+## Deployment
+Once testing was successfully completed, the database was deployed in the project’s hosting environment. This phase involved:
+  - Exporting the Schema: Exporting the database schema and test data using MySQL’s export tools.
+  - Server Configuration: Setting up a web server (e.g., Apache) with PHP and MySQL to host the system.
+  - Database Import: Importing the database schema and data into the server's MySQL instance.
+  - Connection Testing: Testing the database connection with the application to ensure seamless integration.
+
+## Maintenance
+After deployment, database maintenance was planned to ensure the system’s longevity and efficiency. The key maintenance activities include:
+  - Regular Backups: Automated backups of the database to prevent data loss.
+  - Performance Monitoring: Monitoring query execution times and optimizing slow queries.
+  - Data Validation: Regular checks to ensure data integrity and consistency.
+  - Security Updates: Applying security patches to MySQL to protect against vulnerabilities.
+  - Scalability Planning: Preparing the database for future growth by optimizing indexes and planning for horizontal scaling if required.
+    
+## Future Enhancements
+As part of the database development life cycle, the following future enhancements were proposed:
+  - Advanced Analytics: Integrating reporting tools to provide insights into property performance, tenant payments, and lease durations.
+  - Payment Gateways: Implementing payment gateways for online rent payments.
+  - Role-Based Access Control (RBAC): Enhancing security by restricting access to certain tables and operations based on user roles.
+  - Automated Notifications: Adding triggers to send automated email or SMS reminders for lease renewals, payment due dates, or maintenance updates.
+    
+## Conclusion
+The Real Estate Management System database was successfully developed and implemented following the database development life cycle. This structured approach ensured a robust, efficient, and scalable database design, meeting the functional and non-functional requirements of the project.
+
